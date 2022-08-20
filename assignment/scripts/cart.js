@@ -17,18 +17,13 @@ function listItem (array){
 
         console.log( 'logging basket item at index ${index}: ${item}')
     }
-}listItem(basket);
-
-function empty(array) {
-    for (let index = 0; index < index.length; index++){
-        const item = array [index];
-
-        console.log('Removing ${item} from basket');
-        array.pop();
 }
 
-console.log('Array should be empty', array);
+listItem(basket);
+
+function empty() {
+    basket = [];
 
 }
-
 empty(basket);
+console.log(basket)
